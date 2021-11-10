@@ -1,0 +1,29 @@
+{
+  "name": "demo-app-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "db-migrate up --env dataManagement && node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "bunyan": "^1.8.15",
+    "chalk": "^4.1.0",
+    "db-migrate": "^0.11.12",
+    "db-migrate-pg": "^1.2.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "glob": "^7.1.6",
+    "helmet": "^4.4.1",
+    "luxon": "^1.26.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.5.1",
+    "pg-format": "^1.0.4",
+    "x-error": "0.0.10"
+  },
+  "author": "",
+  "license": "ISC"
+}
